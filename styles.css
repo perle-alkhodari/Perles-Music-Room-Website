@@ -1,0 +1,53 @@
+body {
+    background-color: #FFBE98;
+    font-family: "Lilita One", system-ui;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    margin: 5rem;
+    font-family: "Lilita One", system-ui;
+    font-size: 3rem;
+    color: #125B9A;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.music button {
+    width:5rem;
+    height:5rem;
+    background-color: #F05A7E;
+    border-width: 0px;
+    border-radius: 10PX;
+    font-family: "Mulish", sans-serif;
+    font-weight: bolder;
+    color: #FFBE98;
+    font-size:2rem;
+}
+
+.music-type {
+    color: #125B9A
+}
+
+.instruments {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width:1160px) {
+    .instruments {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
