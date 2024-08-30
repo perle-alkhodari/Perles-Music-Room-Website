@@ -17,10 +17,12 @@ var guitarButtons = document.querySelectorAll(".guitar");
 for (var i = 0; i < guitarButtons.length; i++) {
     guitarButtons[i].addEventListener("click", function() {
         var audio = new Audio(`guitar-sounds/${this.innerHTML}.mp3`);
+        audio.volume = 0.25;
         audio.play();
     });
     document.addEventListener("keydown", function(event) {
         var audio = new Audio(`guitar-sounds/${event.key}.mp3`);
+        audio.volume = 0.25;
         audio.play();
     })
 }
