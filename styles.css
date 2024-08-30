@@ -45,6 +45,22 @@ body {
     gap: 2rem;
 }
 
+.credits {
+    align-self: flex-start;
+    margin-top:60px;
+    display: flex;
+    gap:20px;
+}
+
+h4 {
+    margin:0px;
+}
+
+a {
+    margin:0px;
+    color: black;
+}
+
 @media (max-width:1160px) {
     .instruments {
         display: grid;
