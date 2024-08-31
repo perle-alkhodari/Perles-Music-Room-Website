@@ -50,6 +50,7 @@ body {
     margin-top:60px;
     display: flex;
     gap:20px;
+    color: salmon;
 }
 
 h4 {
@@ -60,6 +61,8 @@ a {
     margin:0px;
     color: black;
 }
+
+
 
 @media (max-width:1160px) {
     .instruments {
